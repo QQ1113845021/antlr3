@@ -34,14 +34,12 @@
 
 #cmakedefine HAVE_ARPA_NAMESER_H 1
 #cmakedefine HAVE_CTYPE_H 1
-#cmakedefine HAVE_DLFCN_H 1
 #cmakedefine HAVE_INTTYPES_H 1
 #cmakedefine HAVE_MALLOC_H 1
 #cmakedefine HAVE_MEMORY_H 1
 #cmakedefine HAVE_NETDB_H 1
 #cmakedefine HAVE_NETINET_IN_H 1
 #cmakedefine HAVE_NETINET_TCP_H 1
-#cmakedefine HAVE_RESOLV_H 1
 #cmakedefine HAVE_SOCKET_H 1
 #cmakedefine HAVE_STDARG_H 1
 #cmakedefine HAVE_STDINT_H 1
@@ -53,14 +51,6 @@
 #cmakedefine HAVE_SYS_STAT_H 1
 #cmakedefine HAVE_SYS_TYPES_H 1
 #cmakedefine HAVE_UNISTD_H 1
-
-#cmakedefine HAVE_ACCEPT 1
-#cmakedefine HAVE_MEMMOVE 1
-#cmakedefine HAVE_MEMSET 1
-#cmakedefine HAVE_STRDUP 1
-
-#cmakedefine HAVE_INTPTR_T 1
-#cmakedefine HAVE_UINTPTR_T 1
 
 #ifndef __cplusplus
 #cmakedefine inline @inline@
