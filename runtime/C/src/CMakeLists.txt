@@ -68,6 +68,9 @@ else(${ENABLE_STATIC})
 		endif(CMAKE_BUILD_TYPE STREQUAL "Debug")
 	endif(MSVC)
 endif(${ENABLE_STATIC})
+
+target_compile_options(antlr3c PRIVATE "-w")
+
 install(TARGETS antlr3c
 	RUNTIME DESTINATION bin
 	LIBRARY DESTINATION lib
