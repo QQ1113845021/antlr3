@@ -82,9 +82,7 @@ endforeach(KEYWORD)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/antlr3config.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/antlr3config.h)
 
 
-if(MSVC)
-	add_definitions("/W3")
-else(MSVC)
+if(NOT MSVC)
 	add_definitions("-Wall")
 endif(MSVC)
 
