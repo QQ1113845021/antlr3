@@ -84,7 +84,7 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/antlr3config.h.cmake ${CMAKE_CURRENT_
 
 if(NOT MSVC)
 	add_definitions("-Wall")
-endif(MSVC)
+endif()
 
 
 include_directories(
